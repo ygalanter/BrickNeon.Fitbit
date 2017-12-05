@@ -18,7 +18,6 @@ try {
 // reading time format preferemces
 dtlib.timeFormat = preferences.clockDisplay == "12h" ? 1: 0;
 
-
 // Update the clock every minute
 clock.granularity = "minutes";
 
@@ -54,9 +53,9 @@ function updateClock() {
   let mins = dtlib.zeroPad(today.getMinutes());
 
   // assigning time to 3 textboxes for "neon" effect
-  lbltime1.innerText = `${hours}:${mins}`;
-  lbltime2.innerText = lbltime1.innerText;
-  lbltime3.innerText = lbltime1.innerText;
+  lbltime1.text = `${hours}:${mins}`;
+  lbltime2.text = lbltime1.text;
+  lbltime3.text = lbltime1.text;
   
   // getting short name of the month in English
   let month = dtlib.getMonthNameShort(dtlib.LANGUAGES.ENGLISH, today.getMonth());
@@ -65,23 +64,23 @@ function updateClock() {
   let day = dtlib.zeroPad(today.getDate())
   
   // assigning date to 3 textboxes for "neon" effect
-  day1.innerText = `${month} ${day}`;
-  day2.innerText = day1.innerText;
-  day3.innerText = day1.innerText
+  day1.text = `${month} ${day}`;
+  day2.text = day1.text;
+  day3.text = day1.text
   
   // getting day of the week
   let dow = today.getDay();
   
   // depending on user preferences assigning either short or long DOW in English
   if (dtlib.dowFormat == dtlib.DOWFORMAT_SHORT) {
-     dow1.innerText = `${dtlib.getDowNameShort(dtlib.LANGUAGES.ENGLISH, dow)}`;
+     dow1.text = `${dtlib.getDowNameShort(dtlib.LANGUAGES.ENGLISH, dow)}`;
   } else {
-     dow1.innerText = `${dtlib.getDowNameLong(dtlib.LANGUAGES.ENGLISH, dow)}`;
+     dow1.text = `${dtlib.getDowNameLong(dtlib.LANGUAGES.ENGLISH, dow)}`;
   }
   
   // adding "neon" effect
-  dow2.innerText = dow1.innerText;
-  dow3.innerText = dow1.innerText;
+  dow2.text = dow1.text;
+  dow3.text = dow1.text;
   
 }
 
