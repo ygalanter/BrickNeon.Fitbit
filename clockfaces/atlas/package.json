@@ -6,10 +6,25 @@
     "iconFile": "resources/icon.png",
     "wipeColor": "",
     "requestedPermissions": [],
+    "buildTargets": [
+      "atlas",
+      "vulcan",
+      "hera",
+      "rhea"
+    ],
     "i18n": {
       "en": {
         "name": "Brick Neon"
       }
     }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "6.2.0-pre.0",
+    "@fitbit/sdk-build-targets": "file:fitbit-sdk-build-targets-1.6.0-pre.6.tgz",
+    "@fitbit/sdk-cli": "1.8.0-pre.2"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
   }
 }
