@@ -1,0 +1,15 @@
+{
+  "fitbit": {
+    "appUUID": "a6d54a91-784a-4152-b8bf-a0f30f6543cb",
+    "appType": "clockface",
+    "appDisplayName": "Brick Neon",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [],
+    "i18n": {
+      "en": {
+        "name": "Brick Neon"
+      }
+    }
+  }
+}

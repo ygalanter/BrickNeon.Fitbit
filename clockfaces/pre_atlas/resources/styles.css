@@ -1,0 +1,111 @@
+.background {
+  viewport-fill: black;
+}
+
+#lbltime1 {
+  font-size: 109;
+  font-weight: bold;
+  font-family: System-Bold;
+  text-anchor: middle;
+  text-length: 10;
+  x: 50%;
+  y: 50%+34;
+  fill: fb-green-press;
+ 
+}
+
+#lbltime2 {
+  font-size: 106;
+  font-family: System-Regular;
+  text-anchor: middle;
+  text-length: 10;
+  x: 50%;
+  y: 50%+34;
+  fill: fb-green;
+  letter-spacing: 8;
+}
+
+
+#lbltime3 {
+  font-size: 100;
+  font-family: System-Light;
+  text-anchor: middle;
+  text-length: 10;
+  x: 50%;
+  y: 50%+32;
+  fill: fb-lime;
+  letter-spacing: 13
+}
+
+
+
+#day1 {
+  font-size: 60;
+  font-weight: bold;
+  font-family: System-Bold;
+  text-anchor: middle;
+  text-length: 10;
+  x: 50%;
+  y: 49;
+  fill: fb-slate-press;
+  
+}
+
+#day2 {
+  font-size: 58;
+  font-family: System-Regular;
+  text-anchor: middle;
+  text-length: 10;
+  x: 50%;
+  y: 49;
+  fill: fb-blue;
+  letter-spacing: 2;
+}
+
+
+#day3 {
+  font-size: 55;
+  font-family: System-Light;
+  text-anchor: middle;
+  text-length: 10;
+  x: 50%;
+  y: 47;
+  fill: fb-aqua;
+  letter-spacing: 5;
+}
+
+#dow1 {
+  font-size: 60;
+  font-weight: bold;
+  font-family: System-Bold;
+  text-anchor: middle;
+  text-length: 10;
+  x: 50%;
+  y: 244;
+  fill: fb-yellow-press;
+  
+}
+
+#dow2 {
+  font-size: 58;
+  font-family: System-Regular;
+  text-anchor: middle;
+  text-length: 10;
+  x: 50%;
+  y: 244;
+  fill: fb-peach;
+  letter-spacing: 2;
+}
+
+
+#dow3 {
+  font-size: 55;
+  font-family: System-Light;
+  text-anchor: middle;
+  text-length: 10;
+  x: 50%;
+  y: 242;
+  fill: fb-yellow;
+  letter-spacing: 5;
+}
+
