@@ -1,18 +1,13 @@
 <svg class="background">
- <image href="bricks.png" /> 
-  
- <text id="day1" ></text>
- <text id="day2" ></text>
- <text id="day3" ></text> 
-  
- <text id="lbltime1" ></text>
- <text id="lbltime2" ></text>
- <text id="lbltime3" ></text>
-  
-  
- <text id="dow1" ></text>
- <text id="dow2" ></text>
- <text id="dow3" ></text> 
-  
-  
- </svg>
+    <image href="bricks.png" />
+    <mask id="mask">
+        <text id="day3" ></text>
+        <text id="lbltime3" ></text>
+        <text id="dow3" ></text>
+    </mask>
+    <svg mask="#mask">
+     <g id="rotate" transform="translate(50%,50%)"> 
+       <image href="formask.png" x="-200" y="-200" width="400" height="400" />
+     </g>
+</svg>
+</svg>
