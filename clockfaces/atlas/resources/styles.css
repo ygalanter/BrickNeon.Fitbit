@@ -1,0 +1,42 @@
+.background {
+  viewport-fill: black;
+}
+
+
+#lbltime3 {
+  font-size: 100;
+  font-family: System-Bold;
+  text-anchor: middle;
+  text-length: 10;
+  x: 50%;
+  y: 50%+32;
+  fill: white;
+  letter-spacing: 13;
+}
+
+
+
+
+#day3 {
+  font-size: 55;
+  font-family: System-Bold;
+  text-anchor: middle;
+  text-length: 10;
+  x: 50%;
+  y: 47;
+  fill: fb-aqua;
+  letter-spacing: 5;
+}
+
+
+#dow3 {
+  font-size: 55;
+  font-family: System-Bold;
+  text-anchor: middle;
+  text-length: 10;
+  x: 50%;
+  y: 302;
+  fill: fb-yellow;
+  letter-spacing: 5;
+}
+
